@@ -1,4 +1,4 @@
-import { Header } from './components';
+import { Footer, Header } from './components';
 import Routing from './libs/Routing';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
     <Header/>
       <Routing />
+      <Footer/>
     </>
   );
 }

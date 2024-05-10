@@ -1,11 +1,12 @@
 import { useParams } from "react-router";
 import SingleInfoHeader from "../../components/SingleInfo/SingleInfoHeader";
 import { Similary } from "../../components/index";
+import { extractNumbers } from "../../utils/getNumberSlice";
 // import { useSelector } from "react-redux";
 
 const InfoPage = () => {
   const { id } = useParams();
-  const movieId = id.split("-")[id.split("-")?.length - 1];
+  const movieId = extractNumbers(id);
   // const { value } = useSelector(({ count }) => count);
   console.log(movieId);
 
