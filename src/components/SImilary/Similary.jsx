@@ -18,7 +18,7 @@ const Similary = ({ movieId }) => {
   }, [movieId]);
 
   return (
-    <InfoBy title={"similar movies"}>
+    <InfoBy title={"Similar movies"}>
       {datadSimilary?.results?.sort(randomArray).map((item) => (
         <SwiperSlide key={item.id}>
           <div className="rated_box">

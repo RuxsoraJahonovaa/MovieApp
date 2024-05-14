@@ -6,7 +6,37 @@ import { useState } from "react";
 
 const accordionData = [
   {
-    accordion_text: "kino kurish uchun qanday vaqt topsam buladi",
+    accordion_text: "Kino kurish uchun qanday vaqt topsam buladi",
+    accordion_answer: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+    consequuntur eaque officiis. Nam repellat, tempore facilis quasi
+    commodi doloremque sit, incidunt cum quod nemo recusandae neque
+    minima repudiandae modi! Distinctio consequuntur at commodi ex rem
+    labore modi. Ipsum harum labore dolor deleniti, non ab ut commodi
+    explicabo officiis! Quo, recusandae fugit exercitationem asperiores
+    placeat optio voluptates quas perspiciatis magni dolorum eveniet
+    alias vitae sit, nulla nisi illum cumque laudantium saepe! Quibusdam
+    deserunt ipsam, deleniti officiis iste ullam aperiam. Quibusdam vero
+    odio quas consectetur, voluptas beatae? Quod provident fugit modi
+    inventore officiis, cupiditate eaque? Iste odio maxime porro
+    similique delectus dolore?`,
+  },
+  {
+    accordion_text: "Film tomosha qilish uchun qanday mashxur saytlar bor",
+    accordion_answer: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+    consequuntur eaque officiis. Nam repellat, tempore facilis quasi
+    commodi doloremque sit, incidunt cum quod nemo recusandae neque
+    minima repudiandae modi! Distinctio consequuntur at commodi ex rem
+    labore modi. Ipsum harum labore dolor deleniti, non ab ut commodi
+    explicabo officiis! Quo, recusandae fugit exercitationem asperiores
+    placeat optio voluptates quas perspiciatis magni dolorum eveniet
+    alias vitae sit, nulla nisi illum cumque laudantium saepe! Quibusdam
+    deserunt ipsam, deleniti officiis iste ullam aperiam. Quibusdam vero
+    odio quas consectetur, voluptas beatae? Quod provident fugit modi
+    inventore officiis, cupiditate eaque? Iste odio maxime porro
+    similique delectus dolore?`,
+  },
+  {
+    accordion_text: "Jahon filmlari haqida",
     accordion_answer: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
     consequuntur eaque officiis. Nam repellat, tempore facilis quasi
     commodi doloremque sit, incidunt cum quod nemo recusandae neque

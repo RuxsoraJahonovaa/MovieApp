@@ -6,6 +6,9 @@ import { Movie } from "../../services/serviceApi";
 import { useEffect, useState } from "react";
 import { useDebounce } from "../../hook/useDebounce";
 import { Link } from "react-router-dom";
+import "./search.css";
+
+
 
 const Search = () => {
   const [search, setSearch] = useState(null);
@@ -36,6 +39,7 @@ const Search = () => {
         <input
           type="search"
           onChange={(e) => setSearchingValue(e.target.value)}
+          placeholder=" Search movies..."
         />
       </div>
 

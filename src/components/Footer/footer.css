@@ -26,7 +26,7 @@ li {
  footer{
     width: 100%;
     height: 400px;
-    background-color: #000;
+    background-color:  rgb(8, 8, 8);
     color: #fff;
     font-family:  sans-serif;
 }
@@ -83,7 +83,7 @@ li {
 }
 
 .footer_support .link_item , .footer_section .link_item, .footer_social .link_item{
-    color: #ffffffa2;
+    color: #ffffff66;
 }
 
 .footer_word{

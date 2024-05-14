@@ -120,7 +120,7 @@ const AboutPage = () => {
 
   return (
     <div className="about_container">
-      AboutPage
+      
       <div className="search_btns">
         <select name="" id="" onChange={(e) => setGenresId(e.target.value)}>
           {genres.map((item) => (
@@ -151,7 +151,7 @@ const AboutPage = () => {
         ) : (
           <SkeletonTheme>
             <Skeleton
-              count={8}
+              count={10}
               width={200}
               height={350}
               containerClassName="skeleton"

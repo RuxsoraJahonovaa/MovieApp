@@ -5,7 +5,7 @@ import { imageW300 } from "../../utils/imageUrl";
 import { Movie } from "../../services/serviceApi";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import "./topRated.css"
 const TopRated = () => {
   const [toprated, setTopRated] = useState(null);
 
