@@ -1,0 +1,22 @@
+
+.search_btns{
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.search_btns select {
+    height: 35px;
+    border-radius: 15px;
+    background-color: #ffffffd1;
+}
+
+.search_btns input{
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #ffffffd1;
+
+}

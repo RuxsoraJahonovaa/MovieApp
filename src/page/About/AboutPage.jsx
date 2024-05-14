@@ -10,6 +10,8 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import "./about.css"
+
 
 const genres = [
   {

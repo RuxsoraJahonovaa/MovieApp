@@ -220,6 +220,11 @@ width: 40%;
   position: relative;
   width: 200px;
 }
+.date{
+  height: 100px;
+  
+}
+
 
 .search_input input {
   width: 200px;

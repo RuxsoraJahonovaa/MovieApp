@@ -40,7 +40,9 @@ const Search = () => {
           type="search"
           onChange={(e) => setSearchingValue(e.target.value)}
           placeholder=" Search movies..."
+          
         />
+        
       </div>
 
       {debounceValue && search !== null && (
